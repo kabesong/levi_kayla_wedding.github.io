@@ -1866,17 +1866,17 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				display: block;
+				display: block; 
 				width: 100%;
 			}
 
 		.image.featured {
-			display: block;
+			display: block; 
 			margin: 0 0 2em 0;
 		}
 
 			.image.featured img {
-				display: block;
+				display: block; 
 				width: 100%;
 			}
 
@@ -2546,7 +2546,7 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			/* background: rgba(52, 27, 43, 0.5); */
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
