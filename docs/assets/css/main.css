@@ -1866,8 +1866,10 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				display: block; 
-				width: 100%;
+				/* display: block; */
+				width: 69%;
+				height: 69%;
+				background-position: center;
 			}
 
 		.image.featured {
@@ -2556,8 +2558,8 @@ input, select, textarea {
 
 			#banner .inner header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
+				/* border-bottom: solid 2px; */
+				/* border-top: solid 2px; */	
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
