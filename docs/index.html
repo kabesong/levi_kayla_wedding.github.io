@@ -83,31 +83,40 @@
 					<!-- One -->
 						<section class="wrapper style2 container special-alt">
 							<div class="row gtr-50">
-								<div class="col-8 col-12-narrower">
+								<p id="timer" style="font-size: 60px; text-align: center; width: 100%; margin: 0; display:flex; justify-content: center; align-items: center;" ></p>
 
-									<header>
-										<h2><strong>The Last Frontier</strong></h2>
-									</header>
-									<p> Not a play on ye old ball n chain...the 49th state is quite the adventure! We've gathered the information for our out of town guests and put them in one place. Accomodations, travel to Talkeetna, and some of our Alaska favorite spots and resources can be found by following the link below. 							
-	
-									<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button">Find Out More</a></li>
-										</ul>
-									</footer>
+								<script>
+								// Set the date we're counting down to
+								var countDownDate = new Date("Mar 11, 2023 14:00:00").getTime();
 
-								</div>
-								<div class="col-4 col-12-narrower imp-narrower">
+								// Update the count down every 1 second
+								var x = setInterval(function() {
 
-									<ul class="featured-icons">
-<li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
-									</ul>									
+								  // Get today's date and time
+								  var now = new Date().getTime();
+								    
+								  // Find the distance between now and the count down date
+								  var distance = countDownDate - now;
+								    
+								  // Time calculations for days, hours, minutes and seconds
+								  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+								  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+								  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+								  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+								    
+								  // Output the result in an element with id="demo"
+								  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+								  + minutes + "m " + seconds + "s ";
+								    
+								  // If the count down is over, write some text 
+								  if (distance < 0) {
+								    clearInterval(x);
+								    document.getElementById("demo").innerHTML = "EXPIRED";
+								  }
+								}, 1000);
+								</script>
 
 
-								</div>
 							</div>
 						</section>
 
