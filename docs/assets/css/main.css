@@ -112,7 +112,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #88011F;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 		margin: 0 0 2em 0;
@@ -124,7 +124,9 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 900;
-		color: #2d4d25;
+    		font-size: 1.5em;
+    		color: #2d4d25;
+    		font-family: "Playfair+Display";
 	}
 	
 	p2 { 
@@ -147,9 +149,9 @@ input, select, textarea {
 
 	h3 {
 		font-family: "Playfair+Display";
-		font-size: 2em; 
+		font-size: 1.5em; 
                 letter-spacing: 0.025em;
-                color: #ECC9A3;
+                color: #C1614B;
                 font-weight: 500;
 		text-transform: uppercase
 	}
@@ -2015,8 +2017,9 @@ input, select, textarea {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.35;
+			opacity: 0.y5;
 			text-align: center;
+			color: #DDB992;
 		}
 
 			.icon.featured:before {
@@ -3200,8 +3203,8 @@ input, select, textarea {
 			h3 {
 			    	font-size: 2em;
     				letter-spacing: 0.025em;
-    				color: #ECC9A3;
-    				font-weight: 500;
+    				color: #C1614B;
+    				font-weight: 700;
 			}
 
 			p {
