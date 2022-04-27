@@ -2562,7 +2562,7 @@ input, select, textarea {
 		background-image: url(../../images/banner.jpg);
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: 100vw, auto, cover;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2767,6 +2767,7 @@ input, select, textarea {
 
 			#banner {
 				background-attachment: scroll;
+				background-size: 100vw, auto, cover;
 			}
 
 		/* CTA */
