@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800;900&display=swap');
 /*
 	Twenty by HTML5 UP
 	html5up.net | @ajlkn
@@ -137,12 +137,20 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
+	}
+
+	h3 {
+		font-family: "Playfair+Display";
+		font-size: 2em; 
+                letter-spacing: 0.025em;
+                color: #ECC9A3;
+                font-weight: 500;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -157,8 +165,12 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.15em;
+		font-family: "Playfair+Display", sians-serif;
+		font-size: 2em;
+		color: #ECC9A3;
+                font-weight: 500;
 		letter-spacing: 0.025em;
+	
 	}
 
 	sub {
@@ -1774,7 +1786,7 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			text-align: center;
-			top: 1em;
+			top: 3em;
 			width: 100%;
 		}
 
@@ -2207,7 +2219,7 @@ input, select, textarea {
 		input[type="reset"].fit,
 		button.fit,
 		.button.fit {
-			width: 100%;
+		/*	width: 100%;*/
 		}
 
 		input[type="button"].small,
@@ -2629,7 +2641,7 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-	/*	padding: 7em 0; */
+		padding: 2em 0; 
 	}
 
 		#main > :last-child {
@@ -2649,7 +2661,7 @@ input, select, textarea {
 			}
 
 	body.index #main {
-	/*	padding-top: 5em; */
+		padding-top: 2em;
 	}
 
 /* CTA */
@@ -2976,7 +2988,7 @@ input, select, textarea {
 					}
 
 			body.index #main {
-				padding-top: 0em;
+				padding-top: 2em;
 			}
 
 		/* CTA */
@@ -3185,8 +3197,10 @@ input, select, textarea {
 			}
 
 			h3 {
-				font-size: 1em;
-				letter-spacing: 0.025em;
+			    	font-size: 2em;
+    				letter-spacing: 0.025em;
+    				color: #ECC9A3;
+    				font-weight: 500;
 			}
 
 			p {
@@ -3215,7 +3229,7 @@ input, select, textarea {
 
 					header.special .icon {
 						font-size: 0.75em;
-						top: 1.5em;
+						top: 3em;
 					}
 
 				header p {
@@ -3327,7 +3341,7 @@ input, select, textarea {
 			}
 
 			body.index #main {
-			/*	padding: 2.5em 0 0 0;*/
+				padding: 2.5em 0 0 0;
 			}
 
 			body.contact #main {
