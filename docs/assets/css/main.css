@@ -2216,11 +2216,12 @@ input, select, textarea {
 			padding: 0;
 		}
 
-		.wrapper.style3 {
-                        background-color: #07290a;
-                        background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+		.wrapper.style5 {
+                        /*background-color: #07290a;*/
+                        background-image: url("../../images/Picture1.png"), url("images/light-bl.svg"), url("images/light-br.svg");
                         background-position: bottom left, bottom right;
                         background-repeat: no-repeat, no-repeat;
+			width: 100%;
                         background-size: 75em, 75em;
                         color: #fff;
                 }
@@ -2231,6 +2232,7 @@ input, select, textarea {
 			background-image: url("../../images/Picture1.png"), url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
+			width: 1200px;
 			background-size: 75em, 75em;
 			color: #07290a;
 		}
@@ -2263,7 +2265,7 @@ input, select, textarea {
 				}
 
 		.wrapper.style3 {
-			background: #fff;
+			background: #fff; 
 			color: inherit;
 		}
 
@@ -2542,7 +2544,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url(../../images/banner.jpg);
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2608,7 +2610,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+	/*	background-image: url(images/topo_4.svg), url(images/topo_6.svg), url(images/topo_3.svg), url(images/topo_5.svg); */	
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2640,7 +2642,7 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url(images/topo_4.svg), url(images/topo_6.svg), url("../../images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2814,7 +2816,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 {
-					background-size: 15em;
+					background-size: 1200px;
 				}
 
 				.wrapper.style4 {
@@ -3267,7 +3269,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 {
-					background-size: 10em;
+					background-size: 1200px;
 					padding: 2.25em 1.5em;
 				}
 
