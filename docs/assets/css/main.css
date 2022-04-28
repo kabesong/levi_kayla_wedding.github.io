@@ -2587,7 +2587,8 @@ input, select, textarea {
 		background-image: url(../../images/banner.jpg);
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 100vw, auto, cover;
+		background-size: cover;
+                background-position: center;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2685,7 +2686,7 @@ input, select, textarea {
 		background-image: url("../../images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: auto, cover;
+		background-size: cover;
 /*		color: #fff; */
 		padding: 5em;
 		text-align: center;
@@ -2792,7 +2793,7 @@ input, select, textarea {
 
 			#banner {
 				background-attachment: scroll;
-				background-size: 100vw, cover;
+				background-size: 100, cover;
 				background-position: center;
 			}
 
@@ -2800,6 +2801,7 @@ input, select, textarea {
 
 			#cta {
 				padding: 4em;
+				background-size: cover;
 				background-attachment: scroll;
 			}
 
@@ -2868,7 +2870,8 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 100vw, auto, cover;
+                                background-size: cover;
+                                background-position: center;
 			}
 
 		/* Main */
@@ -2880,7 +2883,7 @@ input, select, textarea {
 		/* CTA */
 
 			#cta {
-				background-size: auto, cover;
+				background-size: cover;
 				padding: 3em;
 			}
 
@@ -2972,6 +2975,8 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
+				background-size: cover;
+                                background-position: center;
 				margin: 0;
 			}
 
@@ -3008,6 +3013,7 @@ input, select, textarea {
 		/* CTA */
 
 			#cta {
+				background-size: cover;
 				margin: 0;
 			}
 
@@ -3325,7 +3331,8 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 100vw, auto, cover;
+				background-size: cover;
+				background-position: center;
 				padding: 6em 0;
 			}
 
