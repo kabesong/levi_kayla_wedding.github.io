@@ -2185,7 +2185,7 @@ input, select, textarea {
 		background: none;
 		border: solid 1px;
 		border-radius: 0;
-		color: inherit;
+		color: #2d4d25;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2213,8 +2213,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #C1614B;
+			border-color: #C1614B;
 			color: #fff !important;
 		}
 
@@ -2223,8 +2223,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: #C1614B !important;
+				border-color: #C1614B !important;
 			}
 
 		input[type="button"].fit,
@@ -2687,7 +2687,7 @@ input, select, textarea {
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		color: #fff;
+/*		color: #fff; */
 		padding: 5em;
 		text-align: center;
 	}
