@@ -133,7 +133,7 @@ input, select, textarea {
 
 	strong2 {
 		font-weight: 900;
-                font-size: 7vw;
+                font-size: 2em;
                 color: #2d4d25;
                 font-family: "Playfair+Display";
 	}	
@@ -2262,7 +2262,7 @@ input, select, textarea {
                 /*        background-position: bottom left, bottom right;*/
                         background-repeat: no-repeat, no-repeat;
 			width: 100%;
-                        background-size: 75em, 75em;
+                        background-size: 150em, 150em;
                         color: #fff;
                 }
 
@@ -2275,6 +2275,8 @@ input, select, textarea {
 			width: 1200px;
 			background-size: 75em, 75em;
 			color: #07290a;
+			padding-top: 75px;
+    			padding-bottom: 75px;
 		}
 
 			.wrapper.style2 input[type="button"]:hover,
