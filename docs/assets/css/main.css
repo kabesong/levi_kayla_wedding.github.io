@@ -9,6 +9,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Kayla edits */
+#timer-section {
+	background-size: 100%, 150em;
+}
+#timer-container {
+	height: 150px;
+}
+/* End Kayla edits */
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, p2, blockquote,
@@ -164,6 +173,15 @@ input, select, textarea {
 		text-transform: uppercase
 	}
 
+	h7 {
+		font-family: "Playfair+Display";
+		font-size: 1.1em; 
+                letter-spacing: 0.025em;
+                color: #C1614B;
+                font-weight: 500;
+		text-transform: uppercase
+	}
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
@@ -241,7 +259,9 @@ input, select, textarea {
 				.container.medium {
 					width: 735px;
 				}
-
+			#timer-section {
+				background-size: 200%, 150em;
+			}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2899,6 +2919,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 840px) {
 
+	
 		/* Basic */
 
 			html, body {
