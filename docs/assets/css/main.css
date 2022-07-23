@@ -2439,12 +2439,15 @@ input, select, textarea {
 
 					#header nav ul li a {
 						border: solid 1px transparent;
-						color: #005f00;
+						color: #C1614B;
+						font-weight: bold;
 						display: inline-block;
 						line-height: 1em;
 						padding: 0.6em 0.75em;
 						text-decoration: none;
 					}
+
+					#home-link {color: #C1614B;}
 
 					#header nav ul li input[type="button"],
 					#header nav ul li input[type="submit"],
