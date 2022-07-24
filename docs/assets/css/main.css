@@ -2562,8 +2562,9 @@ input, select, textarea {
 				transition: none;
 				color: inherit;
 				text-decoration: none;
-				padding: 0 1em;
+				padding: 1em 1em;
 				border: 0;
+				margin: 0;
 			}
 
 			.dropotron > li:hover > a {
@@ -2719,8 +2720,8 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("../../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
+		background-image: url("../../images/banner2.jpg");
+		background-position: center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: cover;
 /*		color: #fff; */
@@ -3176,10 +3177,11 @@ input, select, textarea {
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					color: inherit;
 					display: block;
-					height: 3em;
-					line-height: 3em;
+					height: 5em;
+					line-height: 5em;
 					opacity: 0.75;
 					text-decoration: none;
+					margin: 0;
 				}
 
 					#navPanel .link.depth-0 {
